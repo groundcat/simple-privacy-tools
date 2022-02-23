@@ -1,0 +1,28 @@
+{
+  "providers":{
+    "wechat":{
+      "pattern":"weixin.qq.com",
+      "rules":[
+        "chksm",
+        "key",
+        "uin",
+        "devicetype",
+        "exportkey",
+        "mpshare",
+        "scene",
+        "srcid",
+        "nettype",
+        "from",
+        "subscene",
+        "clicktime",
+        "enterid",
+        "sharer_sharetime",
+        "sharer_shareid",
+        "ver",
+        "signature",
+        "timestamp",
+        "src"
+      ]
+    }
+  }
+}

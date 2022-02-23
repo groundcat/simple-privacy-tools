@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Cleaner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1>URL Cleaner</h1>
+
+    <p>It is a virtue to clean up the tracking parameters before sharing the link.</p>
+
+    <form action="cleaner.php" method="post" target="_blank">
+        <input type="text" name="url" placeholder="https://www.amazon.com/?smid=123" size="50" autocomplete="off">
+        <input type="submit" value="Clean URL!">
+    </form>
+
+    <p>Filters powered by
+        <a href="https://github.com/AdguardTeam/AdguardFilters/tree/master/TrackParamFilter/sections">AdGuard</a>,
+        <a href="https://github.com/yingziwu/ublock-rules">Yingziwu</a>,
+        <a href="https://github.com/ClearURLs/Rules">ClearURLs</a>
+    </p>
+
+    <p>
+        建议与 <a href="https://github.com/gorhill/uBlock">uBlock Origin</a> 浏览器拓展配合食用，并订阅中文网站规则
+        <a href="https://easylist-downloads.adblockplus.org/easylistchina.txt">EasyList China</a>,
+        <a href="https://github.com/yingziwu/ublock-rules">yingziwu/ublock-rules</a>
+    </p>
+
+</body>
+</html>
